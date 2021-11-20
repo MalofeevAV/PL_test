@@ -12,7 +12,7 @@ def file_reader(file):
 
 
 def file_writer(file, data):
-    with open(file, "w", encoding='utf-8') as f:
+    with open(file, "w") as f:
         json.dump(data, f, indent=2)
 
 
